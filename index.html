@@ -4,18 +4,71 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>jim-ree-css-frameworks-ma1</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav class="navbar container">
+        <div class="navbar__logo">
+          <span class="heading heading--xl">MA1</span>
+        </div>
+        <div class="navbar__menubtn">
+          <button id="menubtn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item heading heading--md">home</li>
+          <li class="navbar__item heading heading--md">about</li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="container">
+      <h1 class="heading heading--lg">Page Title</h1>
+      <div class="grid">
+        <div class="grid__item">
+          <div class="grid__inner"></div>
+        </div>
+        <div class="grid__item">
+          <div class="grid__inner"></div>
+        </div>
+        <div class="grid__item">
+          <div class="grid__inner--outline"></div>
+        </div>
+        <div class="grid__item">
+          <div class="grid__inner"></div>
+        </div>
+        <div class="grid__item">
+          <div class="grid__inner"></div>
+        </div>
+        <div class="grid__item">
+          <div class="grid__inner--outline-reverse"></div>
+        </div>
+        <div class="grid__item">
+          <div class="grid__inner"></div>
+        </div>
+        <div class="grid__item">
+          <div class="grid__inner--outline"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <ul class="footer__wrapper">
+        <li class="heading--sm">hello@email.com</li>
+        <li class="heading--sm">Copyright 2020</li>
+      </ul>
+    </footer>
+    <script src="main.js"></script>
+  </body>
 </html>

@@ -1,0 +1,25 @@
+.heading {
+  display: inline-block;
+  font-family: $main_font;
+  color: $heading_color;
+}
+
+.heading--xl {
+  font-size: rem(36px);
+  font-weight: 600;
+}
+
+.heading--lg {
+  font-size: rem(34px);
+  font-weight: 500;
+}
+
+.heading--md {
+  font-size: rem(18px);
+  font-weight: 500;
+}
+
+.heading--sm {
+  font-size: rem(12px);
+  font-weight: 500;
+}

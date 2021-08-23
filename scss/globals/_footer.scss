@@ -1,0 +1,15 @@
+footer {
+  background-color: $base_primary;
+  padding: 1rem 0;
+
+  .footer {
+    &__wrapper {
+      @extend .container;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      list-style: none;
+      padding: 0 1rem;
+    }
+  }
+}

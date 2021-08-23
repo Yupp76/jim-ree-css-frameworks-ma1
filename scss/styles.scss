@@ -1,2 +1,12 @@
-@import "./variables";
-@import "./base"
+@import "../bootstrap-scss/functions";
+@import "../bootstrap-scss/variables";
+@import "../bootstrap-scss/mixins";
+@import "../bootstrap-scss/grid";
+
+@import "./globals/variables";
+@import "./globals/helpers";
+@import "./globals/base";
+@import "./globals/typography";
+@import "./globals/footer";
+@import "./globals/nav";
+@import "./home";
